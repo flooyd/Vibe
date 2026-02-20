@@ -3,18 +3,12 @@
 </script>
 
 <svelte:head>
-	<title>Vibe.</title>
+	<title>Vibe</title>
 </svelte:head>
 
 <nav>
 	<div class="nav-inner">
-		<a href="/" class="nav-brand">Vibe.</a>
-		<div class="nav-links">
-			<a href="#tools">Tools</a>
-			<a href="#github">GitHub</a>
-			<a href="#project">Project</a>
-			<a href="#commit">Commit</a>
-		</div>
+		<a href="/" class="nav-brand">Vibe</a>
 	</div>
 </nav>
 
@@ -48,7 +42,6 @@
 		margin: 0 auto;
 		padding: 1rem 2rem;
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
 	}
 
@@ -59,34 +52,5 @@
 		color: #c9a96e;
 		text-decoration: none;
 		letter-spacing: -0.02em;
-	}
-
-	.nav-links {
-		display: flex;
-		gap: 2rem;
-	}
-
-	.nav-links a {
-		font-family: 'DM Sans', sans-serif;
-		font-size: 0.875rem;
-		font-weight: 500;
-		color: #a09880;
-		text-decoration: none;
-		letter-spacing: 0.05em;
-		text-transform: uppercase;
-		transition: color 0.2s;
-	}
-
-	.nav-links a:hover {
-		color: #f0ece4;
-	}
-
-	@media (max-width: 600px) {
-		.nav-links {
-			gap: 1rem;
-		}
-		.nav-links a {
-			font-size: 0.75rem;
-		}
 	}
 </style>
